@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build sharethis-angular",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "deploy": "ng deploy --project=demo --base-href=https://sharethis-github.github.io/sharethis-angular/"
