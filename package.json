@@ -10,6 +10,7 @@
     "deploy": "ng deploy --project=demo --base-href=https://sharethis-github.github.io/sharethis-angular/"
   },
   "peerDependencies": {
+    "@angular-devkit/build-angular": "^17.3.5",
     "@angular/animations": "^17.3.5",
     "@angular/common": "^17.3.5",
     "@angular/compiler": "^17.3.5",
@@ -18,12 +19,12 @@
     "@angular/platform-browser": "^17.3.5",
     "@angular/platform-browser-dynamic": "^17.3.5",
     "@angular/router": "^17.3.5",
+    "ng-packagr": "^17.3.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
-    "zone.js": "~0.14.4"
+    "zone.js": "~0.14.4",
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^17.3.5",
     "@angular/cli": "~17.3.5",
     "@angular/compiler-cli": "^17.3.5",
     "@types/jasmine": "~4.0.0",
@@ -34,7 +35,6 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
-    "ng-packagr": "^17.3.0",
     "typescript": "~5.4.5"
   }
 }
