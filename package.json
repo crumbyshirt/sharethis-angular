@@ -4,7 +4,6 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build sharethis-angular",
     "preinstall": "ng build sharethis-angular",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
