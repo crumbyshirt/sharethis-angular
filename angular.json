@@ -12,10 +12,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "projects/sharethis-angular/ng-package.json",
-            "polyfills": [
-              "zone.js"
-            ],
+            "project": "projects/sharethis-angular/ng-package.json"
           },
           "configurations": {
             "production": {
